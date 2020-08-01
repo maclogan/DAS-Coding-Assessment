@@ -1,0 +1,36 @@
+.coin {
+  font-size: 2em;
+  color: black;
+  font-weight: bold;
+  border-radius: 50%;
+  border: solid 0.5rem black;
+  width: 150px;
+  height: 150px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.penny {
+  background-color: #ad6f69;
+}
+
+.nickel {
+  background-color: #b5b6b5;
+}
+
+.dime {
+  background-color: #e4e4e4;
+}
+
+.quarter {
+  background-color: #d0caba;
+}
+
+.half-dollar {
+  background-color: #f7f6f4;
+}
+
+.silver-dollar {
+  background-color: #dbdcde;
+}

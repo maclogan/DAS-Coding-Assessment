@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+import Coin from './components/coin/Coin';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Coin denom={1} />
+      <Coin denom={5} />
+      <Coin denom={10} />
+      <Coin denom={25} />
+      <Coin denom={50} />
+      <Coin denom={100} />
     </div>
   );
 }
