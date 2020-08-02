@@ -1,0 +1,36 @@
+.currencyForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.currencyInput {
+  margin: 1rem;
+  font-size: 1rem;
+  background-color: transparent;
+  border: none;
+  color: white;
+  border-bottom: solid 1.5px white;
+  text-align: right;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  border: 0.1em solid white;
+  font-weight: 300;
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s;
+  background-color: transparent;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  color: black;
+  background-color: white;
+}

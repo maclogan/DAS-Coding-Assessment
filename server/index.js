@@ -41,11 +41,10 @@ const generateChange = (amt) => {
 app.post('/', cors(), async (req, res) => {
   // error checking on input
   if (req.body.amount == null) {
-    console.log('noamount');
-    console.log(req.body);
+    console.log('no amount');
     res.status(400).json({ msg: 'No amount was supplied' });
   } else if (Number.isNaN(Number(req.body.amount))) {
-    console.log('nan');
+    console.log('NaN');
     res.status(400).json({ msg: 'The amount supplied must be a number ' });
   } else {
     // Where the bulk of the logic is done (normally I would separate this into its own class and route, but I left it here to prevent complicating this

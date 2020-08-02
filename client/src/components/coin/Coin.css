@@ -1,9 +1,17 @@
+.container {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .coin {
   font-size: 2em;
   color: #353333;
   font-weight: bold;
   border-radius: 50%;
-  border: solid 0.5rem #353333;
+  border: solid 6px #353333;
   width: 100px;
   height: 100px;
   display: grid;
@@ -27,10 +35,10 @@
   background-color: #d0caba;
 }
 
-.half-dollar {
+.half_dollar {
   background-color: #f7f6f4;
 }
 
-.silver-dollar {
+.silver_dollar {
   background-color: #dbdcde;
 }

@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import MaskedInput from 'react-text-mask';
 import createNumberMask from 'text-mask-addons/dist/createNumberMask';
+import './Form.css';
 
 export const Form = ({ parentHandler }) => {
   const [value, setValue] = useState('');
 
+  // Setting mask options for the currency input (utilizing an npm package called react-text-mask and text-mask-addons)
   const defaultMaskOptions = {
     prefix: '$',
     suffix: '',
@@ -12,8 +14,7 @@ export const Form = ({ parentHandler }) => {
     thousandsSeparatorSymbol: ',',
     allowDecimal: true,
     decimalSymbol: '.',
-    decimalLimit: 2, // how many digits allowed after the decimal
-    integerLimit: 7, // limit length of integer numbers
+    decimalLimit: 2,
     allowNegative: false,
     allowLeadingZeroes: false,
   };
@@ -28,12 +29,7 @@ export const Form = ({ parentHandler }) => {
       }}
     >
       <label className="currencyLabel">
-        Amount:
-        {/* <input
-          type="text"
-          value={value}
-          onChange={(e) => setValue(currencyFormat(e.target.value))}
-        /> */}
+        Enter an amount:
         <MaskedInput
           className="currencyInput"
           mask={currencyMask}
