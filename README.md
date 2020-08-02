@@ -4,15 +4,15 @@ Matthew Logan's submission fro Digital Airstrike's Coding Assessment. This code 
 
 \
 \
----- INSTRUCTIONS TO RUN CODE ----\
+---- INSTRUCTIONS TO RUN CODE ----
 
-- To run both the client and server together: run "npm start dev" within the "DAS-Coding-Assessment/client" folder\
-- To run the ReactJS client: run "npm start client" within the "DAS-Coding-Assessment/client" folder (runs on port 3000 by default)\
-- To run the Node.js server: run "npm start server" within the "DAS-Coding-Assessment/client" folder (runs on port 8000 by defualt)\
+- To run both the client and server together: run "npm start dev" within the "DAS-Coding-Assessment/client" folder
+- To run the ReactJS client: run "npm start client" within the "DAS-Coding-Assessment/client" folder (runs on port 3000 by default)
+- To run the Node.js server: run "npm start server" within the "DAS-Coding-Assessment/client" folder (runs on port 8000 by default)
 
 \
 \
----- ASSIGNMENT INSTRUCTIONS ----\
+---- ASSIGNMENT INSTRUCTIONS ----
 
 Digital Airstrike Coding Assessment
 
